@@ -1,0 +1,67 @@
+.menu-list {
+    transition: 3s;
+    text-align: left;
+}
+
+.menu {
+    list-style: none;
+    background-color: gray;
+    color: white;
+    width: fit-content;
+    padding: 1.2rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 3.5rem;
+
+}
+
+
+
+.menu::before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -20px;
+    right: 37%;
+    border: 10px solid;
+    border-color: transparent transparent gray transparent;
+}
+
+.menu li {
+    padding: 0.7rem 0 0.7rem;
+}
+
+.delete-all {
+    cursor: pointer;
+}
+
+.background {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.background .red {
+    background-color: red;
+}
+
+.background .blue {
+    background-color: blue;
+}
+
+.background .green {
+    background-color: green;
+}
+
+.background li {
+    width: 20px;
+    height: 5px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}

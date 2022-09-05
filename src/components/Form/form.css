@@ -1,0 +1,65 @@
+.input-Part .title {
+    font-size: 2rem;
+    margin-bottom: 1.3rem;
+}
+
+.input-Part .addNote {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgb(221, 92, 36);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+    border: none;
+    cursor: pointer;
+}
+
+.add {
+    width: 70%;
+    padding: 0 1rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.add input {
+    max-width: 100%;
+}
+
+.add input,
+.add textarea {
+    border: none;
+    background-color: #eee;
+    margin-bottom: 1.5rem;
+    border-radius: 7px;
+    padding: 0.5rem 1rem;
+}
+
+.add input,
+.add textarea::placeholder {
+    text-align: center;
+}
+
+.add textarea {
+    width: 280px;
+    height: 150px;
+    resize: none;
+}
+
+.add input,
+.add textarea:focus {
+    outline: none;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: brown;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 1.3rem;
+    cursor: pointer;
+}
